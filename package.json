@@ -1,0 +1,34 @@
+{
+	"name": "postcss-closest",
+	"version": "1.0.0",
+	"description": "PostCSS plugin to modify closest matching part of current selector",
+	"main": "index.js",
+	"scripts": {
+		"test": "ava"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/m18ru/postcss-closest.git"
+	},
+	"keywords": [
+		"postcss",
+		"css",
+		"postcss-plugin",
+		"closest",
+		"nest-css",
+		"css-nbd"
+	],
+	"author": "Andrey Avol Volynkin <code@m18.ru>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/m18ru/postcss-closest/issues"
+	},
+	"homepage": "https://github.com/m18ru/postcss-closest#readme",
+	"dependencies": {
+		"postcss": "^5.2.4",
+		"postcss-selector-parser": "^2.2.1"
+	},
+	"devDependencies": {
+		"ava": "^0.16.0"
+	}
+}
